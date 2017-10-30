@@ -1,0 +1,177 @@
+html{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.name{
+  height: 15px
+      font-family: 'PT Sans Caption', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+
+.profession{
+         font-family: 'PT Sans Caption', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+        padding-left: 70px;
+            
+}
+
+
+.Skills {
+   background: yellow;
+    background-size: cover;
+    width: 70px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.Software{
+   background: yellow;
+    background-size: cover;
+    width: 230px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+/*
+font-family: 'Merriweather', serif;
+font-family: 'PT Sans Caption', sans-serif;
+*/
+
+.mail {
+    font-size: 17px;
+    position: absolute;
+    padding-top: 12px;
+}
+
+.Phone {
+    font-size: 17px;
+    padding-left: 110px;
+      padding-top: 12px;
+}
+
+.SkillsOne {
+     width: 200px;
+}
+
+
+.SoftwareOne {
+    width: 200px;
+}
+
+
+.aboutMe {
+    position: absolute;
+    width: 500px;
+    height: 125px;
+    left: 400px;
+    top: 70px;
+}
+
+.titleAboutMe {
+    background: yellow;
+    background-size: cover;
+    width: 100px;
+    font-weight: 700;
+   
+
+}
+
+.textAboutMe {
+    width: 500px;
+    height: 125px;
+    
+}
+
+.Education {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    left: 400px;
+    top: 265px;
+}
+
+.titleEducation {
+    background: yellow;
+     background-size: cover;
+    width: 120px;
+    font-weight: 700;
+}
+
+.textEducation {
+    width: 200px;
+    height: 80px;
+    
+    
+}
+
+.experience {
+    position: absolute;
+    width: 500px;
+    height: 370px;
+    left: 400px;
+    top: 435px;
+}
+
+.titleExperience {
+    background: yellow;
+    background-size: cover;
+    width: 70px;
+    font-weight: 700;
+}
+
+.textExperience {
+    width: 500px;
+    height: 350px;   
+}
+
+.reference {
+    
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    left: 400px;
+    top: 875px; 
+}
+
+.titleReference {
+    background: yellow;
+    background-size: cover;
+    width: 120px;
+    font-weight: 700;
+}
+
+.textReference {
+     width: 320px;
+    height: 100px;
+    
+    
+}
+
+.man {
+     position: absolute;
+    
+    height: 76px;
+    left: 950px;
+    top: 899px;
+}
+
+.textMan {
+    width: 320px;
+    height: 100px;
+}
+
+.photo {
+    height: 260px;
+    width: 260px;
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #666; 
+    
+}
