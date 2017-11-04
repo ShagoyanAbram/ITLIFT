@@ -2,41 +2,50 @@ html{
     font-family: 'PT Sans Caption', sans-serif;
     font-size: 16px;
     line-height: 1.5;
+    background: 
+    width: 2481px;
+    height: 3509px;
+    
 }
 
+
 .name{
-  height: 15px
-      font-family: 'PT Sans Caption', sans-serif;
-    font-size: 25px;
+  
+    font-family: 'PT Sans Caption', sans-serif;
+    text-align: justify;
+    font-size: 91px;
     font-weight: 700;
     
 }
 
 .profession{
-         font-family: 'PT Sans Caption', sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-        padding-left: 70px;
-            
+    font-family: 'PT Sans Caption', sans-serif;
+    text-align: justify;
+    font-size: 50px;
 }
 
 
-.Skills {
-   background: yellow;
+.skills {
+   background: #e8c734;
+    color: #424243;
+    text-align: justify;
     background-size: cover;
-    width: 70px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-weight: 700;
+    width: 221px;
+    height: 81px;  
+    font-size: 42px; 
+    
 }
 
-.Software{
-   background: yellow;
+.software{
+   background: #e8c734;
+    color: #424243;
+    text-align: justify;
+   height: 81px;
+    font-size: 42px; 
     background-size: cover;
-    width: 230px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-weight: 700;
+    width: 600px;
+    margin-top: 60px;
+    
 }
 
 /*
@@ -44,134 +53,241 @@ font-family: 'Merriweather', serif;
 font-family: 'PT Sans Caption', sans-serif;
 */
 
-.mail {
-    font-size: 17px;
+
+
+.skills_one {
+     width: 300px;
+    font-size: 31px;
+   margin-top: 50px;
+}
+
+
+.software_one {
+    width: 450px;
+    font-size: 42px;
+   margin-top: 50px
+}
+
+
+.about_me {
     position: absolute;
-    padding-top: 12px;
+    left: 1000px;
+    top: 561px;
+   background: blue;
 }
 
-.Phone {
-    font-size: 17px;
-    padding-left: 110px;
-      padding-top: 12px;
-}
-
-.SkillsOne {
-     width: 200px;
-}
-
-
-.SoftwareOne {
-    width: 200px;
-}
-
-
-.aboutMe {
-    position: absolute;
-    width: 500px;
-    height: 125px;
-    left: 400px;
-    top: 70px;
-}
-
-.titleAboutMe {
-    background: yellow;
+.title_about_me {
+    background:#e8c734;
+    color: #424243;
+    text-align: justify;
+     height: 81px;
+    font-size: 42px; 
     background-size: cover;
-    width: 100px;
-    font-weight: 700;
+    width: 221px;
+    margin-bottom: 70px;
+    
+    
    
 
 }
 
-.textAboutMe {
-    width: 500px;
-    height: 125px;
+.text_about_me {
+    width: auto;
+    font-size: 33px;   
     
 }
 
-.Education {
-    position: absolute;
-    width: 500px;
-    height: 100px;
-    left: 400px;
-    top: 265px;
-}
 
-.titleEducation {
-    background: yellow;
+
+.title_education {
+    background: #e8c734;
+    color: #424243;
+     height: 81px;
+    font-size: 42px; 
+    text-align: justify;
      background-size: cover;
-    width: 120px;
-    font-weight: 700;
+    width: 300px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    
 }
 
-.textEducation {
-    width: 200px;
-    height: 80px;
+.text_education {
+    font-size: 33px;
     
     
 }
 
-.experience {
-    position: absolute;
-    width: 500px;
-    height: 370px;
-    left: 400px;
-    top: 435px;
-}
 
-.titleExperience {
-    background: yellow;
+.title_experience {
+    background:#e8c734;
+    color: #424243;
+     height: 81px;
+    font-size: 42px; 
+    text-align: justify;
     background-size: cover;
-    width: 70px;
-    font-weight: 700;
-}
-
-.textExperience {
-    width: 500px;
-    height: 350px;   
-}
-
-.reference {
+    width: 221px;
+    margin-bottom: 70px;
+    margin-top: 70px;
     
-    position: absolute;
-    width: 500px;
-    height: 100px;
-    left: 400px;
-    top: 875px; 
 }
 
-.titleReference {
-    background: yellow;
+.text_experience {
+    font-size: 33px;
+}
+
+.title_reference {
+    background: #e8c734;
+    color: #424243;
+     height: 81px;
+    font-size: 42px; 
+    text-align: justify;
     background-size: cover;
-    width: 120px;
-    font-weight: 700;
+    width: 290px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    
+    
 }
 
-.textReference {
-     width: 320px;
-    height: 100px;
-    
-    
+.text_reference {
+     width: 400px;
+    font-size: 33px;
+   
 }
 
 .man {
-     position: absolute;
+     
+     position: relative;
+    top: -846px;
+    right:auto;
+    left: 1006px;
     
-    height: 76px;
-    left: 950px;
-    top: 899px;
 }
 
-.textMan {
-    width: 320px;
-    height: 100px;
+.text_man {
+    width: 400px;
+    font-size: 33px;
+    margin-left: 840px;
 }
 
 .photo {
-    height: 260px;
-    width: 260px;
+    height: 638px;
+    width: 776px;
     margin: 10px auto;
     border-radius: 5px;
-    box-shadow: 0 0 15px #666; 
+    margin-left: 111px;
+    box-shadow: 0 0 15px #666;
     
+    
+}
+
+.skills_bar {
+    margin-left: 111px;
+    width: 800px;
+     margin-top: -2060px;
+      
+}
+
+.name_work {
+  
+    margin-left: 111px;
+    margin-top: 170px;
+    margin-bottom: 170px;
+}
+
+
+.progress {
+    background: #ffffff;
+    width: 620px;
+    height: 30px;
+    outline: 2px solid #e4e4e5;
+}
+
+.communication {
+    background: #bbbcbe;
+    height: 30px;
+    width: 520px;
+}
+
+.creativity {
+     background: #bbbcbe;
+    height: 30px;
+    width: 500px;
+}
+
+.teamwork {
+     background: #bbbcbe;
+    height: 30px;
+    width: 470px;
+}
+
+.organization {
+     background: #bbbcbe;
+    height: 30px;
+    width: 560px;
+}
+
+.line {
+    background: #e8c734;
+    height: 35px;
+    margin-top: 550px;
+    right: auto;
+    left: auto;
+    
+}
+
+.one_line {
+    background: #a5a5a6;
+    height: 3px;
+    margin-left: 111px;
+    margin-bottom: 70px;
+    margin-right: 111px;
+    margin-top: 130px;
+    
+}
+
+.countent_about_me {
+    position: relative;
+    top: -653px;
+    right:auto;
+    left: 1006px;
+    
+
+}
+
+.adobe_photoshop {
+     background: #bbbcbe;
+    height: 30px;
+    width: 595px;
+}
+
+.adobe_illustrator {
+     background: #bbbcbe;
+    height: 30px;
+    width: 560px;
+}
+
+.css {
+     background: #bbbcbe;
+    height: 30px;
+    width: 500px;
+}
+
+.html {
+     background: #bbbcbe;
+    height: 30px;
+    width: 560px;
+}
+
+.web_desing {
+     background: #bbbcbe;
+    height: 30px;
+    width: 490px;
+}
+
+.design_interfaces {
+     background: #bbbcbe;
+    height: 30px;
+    width: 499px;
 }
