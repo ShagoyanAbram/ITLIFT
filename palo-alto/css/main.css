@@ -145,22 +145,40 @@ body {
 #date:active{
   border: 3px solid #5c6bc0;
 }
-    
+#date:hover{
+  border: 3px solid #5c6bc0;
+}    
 
 #First-Name:active{
   border: 3px solid #5c6bc0;
 }
 
+#First-Name:hover{
+  border: 3px solid #5c6bc0;
+}
+
 #Last-Name:active{
   border: 3px solid #5c6bc0;
-    
 }
+
+#Last-Name:hover{
+  border: 3px solid #5c6bc0;
+    }
 
 #email:active{
   border: 3px solid #5c6bc0;
 }
 
+#email:hover{
+  border: 3px solid #5c6bc0;
+}
+
 #phone:active{
+  border: 3px solid #5c6bc0;
+    
+}
+
+#phone:hover{
   border: 3px solid #5c6bc0;
     
 }
