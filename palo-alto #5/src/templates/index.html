@@ -1,0 +1,67 @@
+{% extends "layout.html" %}
+
+{% block main %}
+        <main class="cv__profile">
+            <div class="profile__text-div">Profile
+            </div>
+            <div class="profile__line">
+            </div>
+
+            <section class="profile-info ">
+
+                <form action="" name="Palo-Alto" accept-charset="utf-8" autocomplete="on">
+
+                    <p>
+                        <label class="profile-info__content" for="First-Name">First Name
+                            <br>
+                        </label>
+                        <input class="profile-info__forms" type="text" name="First-Name" id="First-Name" placeholder="John" required>
+                    </p>
+
+                    <p>
+                        <label class="profile-info__content" for="Last-Name">Last Name
+                            <br>
+                        </label>
+                        <input class="profile-info__forms" type="text" name="Last-Name" id="Last-Name" placeholder="Doe" required>
+                    </p>
+
+                    <p>
+                        <label class="profile-info__content" for="email">E-mail
+                            <br>
+                        </label>
+                        <input class="profile-info__forms" type="email" name="email" id="email" placeholder="@mail" required>
+                    </p>
+
+                    <p>
+                        <label class="profile-info__content" for="phone">Phone
+                            <br>
+                        </label>
+                        <input class="profile-info__forms" type="tel" name="phone" id="phone" placeholder="    +_(___) ___-__-__" required>
+                    </p>
+
+                    <p>
+                        <label class="profile-info__content" for="date">Date of Birth
+                            <br>
+                        </label>
+                        <input class="profile-info__forms" type="date" name="date" id="date" placeholder="DD/MM/YYYY" required>
+                    </p>
+                    <div class="profile-info__sex">Sex</div>
+                    <p class="profile-info__sex-content-male">
+                        <input class="profile-info__myradio" type="radio" name="gender-two" value="male" id="gender-one">
+                        <label class="profile-info__content" for="gender-one">Male</label>
+                    </p>
+
+                    <p class="profile-info__sex-content-female">
+                        <input class="profile-info__myradio" type="radio" name="gender-two" value="female" id="gender-two">
+                        <label class="profile-info__content" for="gender-two">Female</label>
+                    </p>
+
+                    <input class="profile__section__submit" type="submit" name="submit" id="submit" value="SUBMIT">
+
+                </form>
+            </section>
+        </main>
+        {% endblock %}
+
+
+
