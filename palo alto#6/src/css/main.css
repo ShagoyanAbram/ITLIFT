@@ -154,13 +154,10 @@ body {
 
 .cursor {
     font-size: 25px;
-/*    color: #7f7f7f;*/
-    margin-bottom: 55px;
+    color: #7f7f7f;
     font-family: Lato;
-    color:  rgba(0, 0, 0, 0.2);
 font-style: italic;
 line-height: 38px;
-text-align: left;
 
 }
 .label {
@@ -375,7 +372,6 @@ height: 22px;
    
 }
 
-.one-block {
     
 
 .content__one__page {
