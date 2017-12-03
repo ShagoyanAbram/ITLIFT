@@ -1,4 +1,5 @@
 body {
+    font-family: 'Lato', sans-serif;
     margin: 0;
     font-family: CenturyGothic, sans-serif;
     font-size: 35px;
@@ -49,7 +50,7 @@ body {
     background: #fff;
     border: #fff;
     cursor: pointer;
-    border: 2px solid transparent;
+    border: 5px solid transparent;
 }
 #submit {
     background: #fff;
@@ -58,7 +59,7 @@ body {
     border-color: #f1f1f1;
 }
 #submit:active {
-    border: 2px solid #7d89cd;
+    border: 5px solid #7d89cd;
 }
 .footer {
     font-family: 'Lato', sans-serif;
@@ -67,7 +68,7 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
-.footer__text {
+.footer__text-palo {
     display: inline-block;
     padding: 9px;
     padding-left: 44.55%;
@@ -83,12 +84,15 @@ body {
     margin-bottom: 55px;
 }
     
+/*
 .content-one__text {
     font-size: 40px;
     margin-top: -10px;
     font-weight: 700;
    
 }
+*/
+/*
 .content-one__page {
     display: inline-block;
     font-size: 14px;
@@ -98,20 +102,12 @@ body {
     margin-bottom: 25px;
     
 }
+*/
 .bottom {
     position: relative;
     padding-bottom: 80px;
 }
 .bottom__hash {
-    /*
-    position: relative;
-    width: 350px;
-    bottom: 80px;
-    left: 600px;
-    right: 98px;
-    top: -154px;
-   
-*/
     position: absolute;
     font-size: 15px;
     color: #d1d1d1;
@@ -131,7 +127,6 @@ body {
     height: 636px;
 }
 .photo_one {
-    background: red;
     width: 956px;
     height: 636px;
 }
@@ -143,14 +138,6 @@ body {
     margin-left: 123px;
     margin-top: 50px;
 }
-
-    font-size: 42px;
-    width: 200px;
-    margin-top: 0px;
-    margin-bottom: -75px;
-    background: blue;
-}
-
 
 .cursor {
     font-size: 25px;
@@ -172,14 +159,6 @@ line-height: 38px;
     
 }
 .label__position {
-/*
-    position: static;
-    font-size: 14px;
-    margin-left: 6px;
-    font-weight: 700;
-    font-family: Lato;
-    padding-top: 6px;
-*/
     position: static;
     font-size: 14px;
     margin-left: 6px;
@@ -188,15 +167,6 @@ line-height: 38px;
     padding-top: 0px;
     margin-top: 7px;
     color:  #ffffff;
-    
-
-
-
-/*
-
-    padding-left: 7.1%;
-    padding-right: 7.1%;
-*/
 }
 .content-one {
     margin-left: 98px;
@@ -205,12 +175,6 @@ line-height: 38px;
 
 .header__name {
     margin-bottom: -45px;
-   
-/*
-    margin-left: 48px;
-    padding: 75px;
-    margin-bottom: -65px;
-*/
    
 }
 
@@ -223,39 +187,14 @@ line-height: 38px;
     
 }
 
-.profile {
-/*
-    bottom: 2px;
-    left: 83px;
-    margin: 0;
-    line-height: 15px;
-    padding-bottom: 90px;
-*/
-    
-}
 
 .home {
     color:  #bdbdbd;
 }
 
 
-
-.haEsh_two {
-    display: inline-block;
-    font-size: 15px;
-    color: #d1d1d1;
-    margin-bottom: 80px;
-    line-height: 15px;
-}
-
 .submit__block {
     margin: 0;
-}
-
-
-
-.texy__two {
-    font-size: 14px;
 }
 
 .footer__nav__text-home {
@@ -273,9 +212,9 @@ line-height: 38px;
     padding-right: 30px;
 }
 
-.name {
+.footer__nav__search {
     width: 16px;
-height: 16px;
+    height: 16px;
     
 }
 
@@ -285,7 +224,7 @@ height: 16px;
   
 }
 
-.stile_text {
+.footer__text__information {
     font-size: 14px;
     color: #7a85ca;
     padding-right: 30px;
@@ -297,42 +236,39 @@ height: 16px;
     font-size: 14px;
 }
 
-.text''d {
-    padding-top: 7px;
-}
 
-.vk {
+.icons {
     padding-left: 45%;
     padding-bottom: 70px;
     padding-top: 40px;
 }
 
-.f {
+.icons__f {
     width: 22px;
 height: 22px;
     margin-right: 20px;
 }
 
-.t {
+.icons__t {
     width: 22px;
 height: 22px;
     margin-right: 20px;
 }
 
-.i {
+.icons__i {
     width: 22px;
 height: 22px;
     margin-right: 20px;
     
 }
 
-.p {
+.icons__p {
     width: 22px;
 height: 22px;
     
 }
 
-.texg {
+.footer__text {
     padding-top: 70px;
     padding-left: 400px;
 
@@ -340,9 +276,7 @@ height: 22px;
     
 }
 
-.2 {
-    font-size: 16px;
-}
+
 
 .heder__menu-home{
     padding-right: 35px;
@@ -382,3 +316,8 @@ font-weight: 700;
 }
 
 
+
+.footer-content {
+    padding-top: 50px;
+    padding-left: 400px;
+}
