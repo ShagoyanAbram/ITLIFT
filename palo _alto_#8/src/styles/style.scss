@@ -1,4 +1,6 @@
+
 body {
+    font-family: 'Lato', sans-serif;
     margin: 0;
     font-size: 35px;
     letter-spacing: 0.025em;
@@ -190,8 +192,8 @@ body {
 .footer__text-palo {
     display: inline-block;
     padding: 9px;
-    padding-left: 44.6%;
-    padding-right: 44.6%;
+    padding-left: 44.1%;
+    padding-right: 44.1%;
     font-size: 36px;
     color: #4a569a;
 }
@@ -410,6 +412,7 @@ body {
     .footer__nav__text-profile {
         position: relative;
         top: -70px;
+        margin-left: -9px;
     }
 }
 .footer__nav__search {
@@ -431,12 +434,15 @@ body {
     padding-top: 70px;
 }
 @media (max-width: 320px) {
-    .footer__nav {}
+    .footer__nav {
+    
+        
+    }
 }
 .footer__text__information {
+    display: inline-block;
     font-size: 14px;
     color: #7a85ca;
-    padding-right: 30px;
 }
 @media (max-width: 320px) {
     .footer__text__information {
@@ -450,7 +456,13 @@ body {
 }
 @media (max-width: 320px) {
     .sprites {
-        padding-left: 22%;
+    position: relative;
+    padding: 0;
+    margin-top: -15px;
+    margin-left: 75px;
+    padding-bottom: 70px;
+
+        
     }
 }
 .sprites__f {
@@ -474,22 +486,25 @@ body {
     }
 }
 .sprites__i {
+    text-decoration: none;
     width: 22px;
     height: 22px;
     margin-right: 20px;
 }
 @media only screen and (min-device-pixel-ratio: 1.5) {
     .sprites__i {
+        text-decoration: none;
         background-image: url(/src/img/instagram@2x.svg);
     }
 }
 .sprites__p {
     width: 22px;
     height: 22px;
+    text-decoration: none;
 }
 @media only screen and (min-device-pixel-ratio: 1.5) {
     .sprites__p {
-        background-image: url(/src/img/pinterest@2x.svg);
+       text-decoration: none; background-image: url(/src/img/pinterest@2x.svg);
     }
 }
 .footer__text {
@@ -508,14 +523,18 @@ body {
     }
 }
 .footer-content {
-    padding-top: 50px;
-    padding-left: 400px;
+    margin-top: 50px;
+    display: inline-block;
+    margin-left: 400px;
+    margin-right: 400px;
+    
 }
 @media (max-width: 320px) {
     .footer-content {
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 0;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+        
     }
 }
 .content_one__text {}@media (max-width: 320px) {
@@ -573,9 +592,9 @@ body {
         font-size: 14px;
         color: #9da6d9;
         text-align: center;
-        margin-left: 4%;
-        margin-right: 4%;
-        bottom: -15px;
+        margin-left: 7%;
+        margin-right: 7%;
+        bottom: 70px;
     }
 }
 @media (min-width: 320px) {
@@ -585,23 +604,43 @@ body {
 }
 @media (max-width: 320px) {
     .footer__text__information-phone_designed {
-        position: relative;
+       position: absolute;
+/*        position: relative;*/
+        margin-top: -60px;
+        margin-left: 63px;
         font-size: 14px;
         color: #9da6d9;
         text-align: center;
-        left: 60px;
+        padding: 0;     
     }
 }
-.stile__text_ {
+.stile__team {
+    display: inline-block;
     color: #ffffff;
     font-size: 14px;
-    text-align: center;
+    margin-left: 10px;
 }
 @media (max-width: 320px) {
-    .stile__text_ {
-        position: relative;
-        top: 25px;
-        left: -75px;
-        text-align: center;
+    .stile__team {
+        
+ position:relative;
+        top: -50px;
+        margin-left: 96px;
+        margin-right: 96px;
     }
+}
+.pinterest {
+    text-decoration: none;
+}
+
+.instagram {
+    text-decoration: none;
+}
+
+.twitter {
+    text-decoration: none;
+}
+
+.facebook {
+    text-decoration: none;
 }
