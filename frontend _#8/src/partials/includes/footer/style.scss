@@ -1,0 +1,247 @@
+.footer {
+    font-family: 'Lato', sans-serif;
+    background: #5c6bc0;
+     width: 1400px;
+    
+
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+@media (max-width: 320px) {
+    .footer {
+        width: 320px;
+        max-width: 100%;
+    }
+}
+.footer__text-palo {
+    display: inline-block;
+    padding: 9px;
+    padding-left: 44.1%;
+    font-size: 36px;
+    color: #4a569a;
+}
+@media (max-width: 320px) {
+    .footer__text-palo {
+        display: inline-block;
+        padding: 9px;
+        padding-left: 26.3%;
+        font-size: 36px;
+        color: #4a569a;
+    }
+}
+
+.footer__nav__text-home {
+    display: inline-block;
+    font-family: Lato;
+    font-size: 16px;
+    color: #7e89cb;
+    font-weight: 700;
+    padding: 20px;
+}
+@media (max-width: 320px) {
+    .footer__nav__text-home {
+/*
+        position: relative;
+        top: -70px;
+*/
+    }
+}
+.footer__nav__text-profile {
+    font-size: 16px;
+    color: #ffffff;
+    
+/*    padding-right: 30px;*/
+}
+/*
+    @media (min-width: 321px) {
+        .footer__nav__text-profile {
+            margin-top: -38px;
+    margin-left: 150px;
+        
+        }
+}
+*/
+
+@media (max-width: 320px) {
+    .footer__nav__text-profile {
+        margin-top: -5px;
+    }
+}
+.footer__nav__search {
+    width: 16px;
+    height: 16px;
+    margin-top: 10px;
+}
+@media (max-width: 320px) {
+    .footer__nav__search {
+        display: none;
+    }
+}
+@media only screen and (min-device-pixel-ratio: 1.5) {
+    .footer__nav__search {
+        background-image: url(/src/img/Search@2x.svg);
+    }
+}
+.footer__nav {
+/*    padding-left: 41%;*/
+    margin-top: -5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width: 320px) {
+    .footer__nav {
+    
+        
+    }
+}
+.footer__text__information {
+    display: inline-block;
+    font-size: 14px;
+    color: #7a85ca;
+}
+@media (max-width: 320px) {
+    .footer__text__information {
+        display: none;
+    }
+}
+.sprites {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+    padding-top: 40px;
+}
+@media (max-width: 320px) {
+    .sprites {
+        margin-top: -15px;
+   
+    }
+}
+.sprites__f {
+    width: 22px;
+    height: 22px;
+    margin-right: 20px;
+}
+@media only screen and (min-device-pixel-ratio: 1.5) {
+    .sprites__f {
+        background-image: url(/src/img/facebook%20@2x.svg);
+    }
+}
+.sprites__t {
+    width: 22px;
+    height: 22px;
+    margin-right: 20px;
+}
+@media only screen and (min-device-pixel-ratio: 1.5) {
+    .sprites__t {
+        background-image: url(/src/img/twitter@2x.svg);
+    }
+}
+.sprites__i {
+    text-decoration: none;
+    width: 22px;
+    height: 22px;
+    margin-right: 20px;
+}
+@media only screen and (min-device-pixel-ratio: 1.5) {
+    .sprites__i {
+        text-decoration: none;
+        background-image: url(/src/img/instagram@2x.svg);
+    }
+}
+
+.sprites_link{
+    margin: 0;
+    width: 22px;
+    height: 22px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.sprites-i{
+    display:  block;
+    color: white;
+    width: 22px;
+    height: 22px;
+}
+@media only screen and (min-device-pixel-ratio: 1.5) {
+    .sprites-i {
+       text-decoration: none; background-image: url(/src/img/pinterest@2x.svg);
+    }
+}
+.footer__text {
+    padding-top: 70px;
+    padding-left: 400px;
+}
+.content__one__page {
+    font-family: Lato;
+    color: #bdbdbd;
+    font-size: 14px;
+    font-weight: 700;
+}
+@media (max-width: 320px) {
+    .content__one__page {
+        padding-top: 30px;
+    }
+}
+.footer-content {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    
+}
+@media (max-width: 320px) {
+    .footer-content {
+       margin-top: 60px;
+        
+        
+    }
+}
+
+@media (min-width: 321px) {
+    .footer__text__information-phone {
+        display: none;
+    }
+}
+@media (max-width: 320px) {
+    .footer__text__information-phone {
+        font-size: 14px;
+        color: #9da6d9;
+    }
+}
+@media (min-width: 321px) {
+    .footer__text__information-phone_designed {
+        display: none;
+    }
+}
+@media (max-width: 320px) {
+    .footer__text__information-phone_designed {
+       
+        margin-top: 10px;
+       font-size: 14px;
+       color: #9da6d9;
+       padding: 0;
+    }
+}
+.stile__team {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+@media (max-width: 320px) {
+    .stile__team {
+        
+     margin-top: 10px;   
+    }
+}

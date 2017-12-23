@@ -1,0 +1,79 @@
+
+.menu-split {
+    width: 320px;
+    height: 800px;
+    background: #252b4d;
+}
+
+.menu-home {
+    position: relative;
+    color: #a9afdb;
+    font-size: 18px;
+    left: 60px;
+    
+}
+
+.menu-profile {
+   position: relative;
+    top: 65px;
+    left: 3px;
+    color: #ffffff;
+    font-size: 18px;
+    
+    
+}
+
+.menu-text_palo {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 26px;
+    
+}
+
+.menu-text_designed {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #70748a;
+    
+    
+    
+}
+
+.menu-text {
+    margin-top: 500px;
+    padding-left: 55px;
+    padding-right: 55px;
+    
+    
+}
+
+.menu-split_line {
+    height: 1px;
+    background: #3b415f;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.sprites-i {
+    height: 17px;
+    width: 17px;
+}
+
+.search-svg {
+    width: 18px;
+    height: 18px;
+    
+}
+
+.search {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 18px;
+    background: none;
+    border: none;
+}
+
+.menu1_search-svg {
+   
+}

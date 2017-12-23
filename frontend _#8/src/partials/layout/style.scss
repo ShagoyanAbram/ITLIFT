@@ -1,0 +1,21 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    font-size: 35px;
+    letter-spacing: 0.025em;
+}
+@media (min-width: 768px) {
+    body {
+        width: 1400px;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        width: 1400px;
+    }
+}
+@media (max-width: 320px) {
+    body {
+        width: 320px;
+    }
+}
